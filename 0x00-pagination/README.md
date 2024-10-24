@@ -14,7 +14,16 @@
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
 
 ## Project Description
-
+- All your files will be interpreted/compiled on Ubuntu 18.04 LTS using `python3` (version 3.7)
+- All your files should end with a new line
+- The first line of all your files should be exactly `#!/usr/bin/env python3`
+- A `README.md` file, at the root of the folder of the project, is mandatory
+- Your code should use the `pycodestyle` style (version 2.5.\*)
+- The length of your files will be tested using `wc`
+- All your modules should have a documentation (`python3 -c 'print(__import__("my_module").__doc__)'`)
+- All your functions should have a documentation (`python3 -c 'print(__import__("my_module").my_function.__doc__)'`
+- A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
+- All your functions and coroutines must be type-annotated.
 
 ## Tasks
 #### 0
@@ -224,7 +233,6 @@ bob@dylan:~$
 
 - Start `3-hypermedia_del_pagination.py` with this code:
 
-- Implement a `get_hyper_index` method with two integer arguments: `index` with a `None` default value and `page_size` with default value of 10.
 ```
 #!/usr/bin/env python3
 
@@ -270,6 +278,21 @@ class Server:
 
     def get_hyper_index(self, index: int = None, page_size: int = 10) -> Dict:
             pass
+```
+- Implement a `get_hyper_index` method with two integer arguments: `index` with a `None` default value and `page_size` with default value of 10.
+    
+    - The method should return a dictionary with the following key-value pairs:
+        - `index`: the current start index of the return page. That is the index of the first item in the current page. For example if requesting page 3 with `page_size` 20, and no data was removed from the dataset, the current index should be 60.
+        - `next_index`: the next index to query with. That should be the index of the first item after the last item on the current page.
+        - `page_size`: the current page size
+        - `data`: the actual page of the dataset
+    
+**Requirements/Behavior**:
+
+- Use `assert` to verify that `index` is in a valid range.
+- If the user queries index 0, `page_size` 10, they will get rows indexed 0 to 9 included.
+- If they request the next index (10) with `page_size` 10, but rows 3, 6 and 7 were deleted, the user should still receive rows indexed 10 to 19 included.
+```
 bob@dylan:~$ cat 3-main.py
 
 #!/usr/bin/env python3
