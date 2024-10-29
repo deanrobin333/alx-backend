@@ -4,7 +4,8 @@
 - [Author Details](#author-details)
 - [Projects](#tasks)
     - [0. 0x00. Pagination](#0)
-    - [1. ](#1)
+    - [1. 0x01. Caching](#1)
+    - [2. ](#2)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -20,7 +21,20 @@
 ---
 #### 1
 ###### [Table of Contents](#table-of-contents)
-### [1. ](./)
+### [1. 0x01. Caching](./0x01-caching)
+- What a caching system is
+- What FIFO means
+- What LIFO means
+- What LRU means
+- What MRU means
+- What LFU means
+- What the purpose of a caching system
+- What limits a caching system have
+
+---
+#### 2
+###### [Table of Contents](#table-of-contents)
+### [2. ](./)
 
 ---
 
