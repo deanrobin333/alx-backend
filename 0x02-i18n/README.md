@@ -176,8 +176,10 @@ $ pip3 install flask_babel==2.0.0
     | `not_logged_in` | `"You are not logged in."` | `"Vous n'êtes pas connecté."` |
     
 - **Visiting `http://127.0.0.1:5000/` in your browser should display this:**
+![](./images/0x02-i18n_task5_1.png)
     
 - **Visiting `http://127.0.0.1:5000/?login_as=2` in your browser should display this:**
+![](./images/0x02-i18n_task5_2.png)
 
 <br></br>
 - Repo
@@ -202,9 +204,7 @@ $ pip3 install flask_babel==2.0.0
 
 
 - Test by logging in as different users
-
-- 
-
+![](./images/0x02-i18n_task6_1.png)
 
 
 <br></br>
@@ -254,8 +254,10 @@ $ pip3 install flask_babel==2.0.0
     | `current_time_is` | `"The current time is %(current_time)s."` | `"Nous sommes le %(current_time)s."` |
     
 - **Displaying the time in French looks like this:**
+![](./images/0x02-i18n_task8_1.png)
     
-- ****Displaying the time in English looks like this:****
+- **Displaying the time in English looks like this:**
+![](./images/0x02-i18n_task8_2.png)
 
 
 <br></br>
