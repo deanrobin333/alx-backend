@@ -5,7 +5,8 @@
 - [Projects](#tasks)
     - [0. 0x00. Pagination](#0)
     - [1. 0x01. Caching](#1)
-    - [2. ](#2)
+    - [2. 0x02. i18n](#2)
+    - [3. ](#3)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -34,7 +35,15 @@
 ---
 #### 2
 ###### [Table of Contents](#table-of-contents)
-### [2. ](./)
+### [2. 0x02. i18n](./0x02-i18n)
+- Learn how to parametrize Flask templates to display different languages
+- Learn how to infer the correct locale based on URL parameters, user settings or request headers
+- Learn how to localize timestamps
+
+---
+#### 3
+###### [Table of Contents](#table-of-contents)
+### [3. ](./)
 
 ---
 
