@@ -202,7 +202,7 @@ $ pip3 install flask_babel==2.0.0
     4.  Default locale
     
 - Test by logging in as different users
-![](./images/0x02-i18n_task6_1.png)
+    - ![](./images/0x02-i18n_task6_1.png)
 
 
 <br></br>
