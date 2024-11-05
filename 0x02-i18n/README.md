@@ -193,16 +193,14 @@ $ pip3 install flask_babel==2.0.0
 **6. Use user locale**
 
 - Change your `get_locale` function to use a user’s preferred local if it is supported.
-
+    
 - The order of priority should be
-
-
- - Locale from URL parameters
- - Locale from user settings
- - Locale from request header
- - Default locale
-
-
+    
+    1.  Locale from URL parameters
+    2.  Locale from user settings
+    3.  Locale from request header
+    4.  Default locale
+    
 - Test by logging in as different users
 ![](./images/0x02-i18n_task6_1.png)
 
