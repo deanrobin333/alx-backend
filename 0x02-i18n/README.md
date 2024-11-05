@@ -137,6 +137,7 @@ $ pip3 install flask_babel==2.0.0
 - Now you should be able to test different translations by visiting `http://127.0.0.1:5000?locale=[fr|en]`.
 
 - Visiting `http://127.0.0.1:5000/?locale=fr` should display this level 1 heading:
+![](./images/0x02-i18n_task4_1.png)
 
 
 <br></br>
@@ -204,7 +205,7 @@ $ pip3 install flask_babel==2.0.0
 
 - 
 
-```
+
 
 <br></br>
 - Repo
@@ -229,7 +230,7 @@ $ pip3 install flask_babel==2.0.0
 
 - Before returning a URL-provided or user time zone, you must validate that it is a valid time zone. To that, use `pytz.timezone` and catch the `pytz.exceptions.UnknownTimeZoneError` exception.
 
-```
+
 
 <br></br>
 - Repo
