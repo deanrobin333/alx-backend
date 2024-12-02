@@ -6,7 +6,8 @@
     - [0. 0x00. Pagination](#0)
     - [1. 0x01. Caching](#1)
     - [2. 0x02. i18n](#2)
-    - [3. ](#3)
+    - [3. 0x03. Queuing System in JS](#3)
+    - [4. ](#4)
 ---
 ## Author Details
 - *Dean Robin Otsyeno - deanrobin777@gmail.com*
@@ -43,7 +44,20 @@
 ---
 #### 3
 ###### [Table of Contents](#table-of-contents)
-### [3. ](./)
+### [3. 0x03. Queuing System in JS](./0x03-queuing_system_in_js)
+- How to run a Redis server on your machine
+- How to run simple operations with the Redis client
+- How to use a Redis client with Node JS for basic operations
+- How to store hash values in Redis
+- How to deal with async operations with Redis
+- How to use Kue as a queue system
+- How to build a basic Express app interacting with a Redis server
+- How to the build a basic Express app interacting with a Redis server and que
+
+---
+#### 4
+###### [Table of Contents](#table-of-contents)
+### [4. ](./)
 
 ---
 
